@@ -1,0 +1,5 @@
+local.sqlite
+migrations/
+3.10/
+apps/uploadfiles
+config.py

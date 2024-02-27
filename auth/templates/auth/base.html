@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <!-- 타이틀에 해당하는 것을 블럭화한다. -->
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('crud.static', filename='style.css')}}" />
+</head>
+<body>
+    <!-- body contents를 상속처에서 구현한다.-->
+    {% block content %}{% endblock %}
+</body>
+</html>
